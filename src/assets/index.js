@@ -33,6 +33,7 @@ import MainTitle from '../assets/components/main-title.svg';
 import onOff from '../assets/brands/on-off.svg';
 import logosTry from '../assets/brands/logos_try.svg';
 import pizzeria from '../assets/components/header_full_pizzeria.svg';
+import backgroundPizza from '../assets/components/background_pizza.jpg';
 
 export {
   one,
@@ -69,5 +70,6 @@ export {
   sevenPage,
   onOff,
   logosTry,
-  pizzeria
+  pizzeria,
+  backgroundPizza
 }

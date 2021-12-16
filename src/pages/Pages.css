@@ -30,3 +30,9 @@
   to {transform: none;}
 }
 
+@media screen and (min-width: 550px) {
+  .instructive {
+    margin-top: 22px;
+  }
+}
+

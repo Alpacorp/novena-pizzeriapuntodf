@@ -7,10 +7,8 @@
 }
 
 :root {
-  background: #FCF5EF;
-}
-
-body {
-  background-image: paint(bubbles);
-  background: #FCF5EF;
+  background-image: url('./assets/components/background_pizza.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
