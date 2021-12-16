@@ -29,11 +29,10 @@ import mainFamily from './components/navidad_belen.svg';
 import novenaIntro from './components/novena_aguinaldo.svg';
 import footer from './components/decoracion_abajo.svg';
 import brandLogoIntro from './components/sulogoaquiintro.svg';
-import Servientrega from '../assets/brands/logo-Servientrega.png';
-import Star from '../assets/brands/star.svg';
 import MainTitle from '../assets/components/main-title.svg';
 import onOff from '../assets/brands/on-off.svg';
 import logosTry from '../assets/brands/logos_try.svg';
+import pizzeria from '../assets/components/header_full_pizzeria.svg';
 
 export {
   one,
@@ -60,8 +59,6 @@ export {
   novenaIntro,
   footer,
   brandLogoIntro,
-  Servientrega,
-  Star,
   MainTitle,
   onePage,
   twoPage,
@@ -71,5 +68,6 @@ export {
   sixPage,
   sevenPage,
   onOff,
-  logosTry
+  logosTry,
+  pizzeria
 }
