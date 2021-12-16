@@ -3,6 +3,7 @@ import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 import { data } from '../../Data/data.json';
 import { beforeIcon, afterIcon, fivePage } from '../../assets';
+import Header from '../../Components/Header';
 
 const StepFive = () => {
 
@@ -20,6 +21,7 @@ const StepFive = () => {
 
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={fivePage} textImage='step five' />
         <h2>Los Gozos</h2>

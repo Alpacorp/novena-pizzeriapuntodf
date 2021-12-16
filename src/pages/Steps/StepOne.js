@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { onePage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 import Slide from '../../Components/Slide';
 
 const StepOne = () => {
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={onePage} textImage='day one' />
         <h2>Oración para todos los días</h2>

@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { dayseven } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 import Slide from '../../Components/Slide';
 
 const DaySeven = () => {
   return (
     <>
+      <Header show={true} />
       <div className="steps">
         <DayImgDate image={dayseven} textImage='day seven' />
         <h2>Día Septimo</h2>

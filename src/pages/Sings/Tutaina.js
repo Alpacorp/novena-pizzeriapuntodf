@@ -1,10 +1,12 @@
 import * as React from 'react';
 import Back from '../../Components/Back';
 import backButtonIcon from '../../assets/components/volver.svg';
+import Header from '../../Components/Header';
 
 const Tutaina = () => {
   return (
     <>
+      <Header show={true} />
       <div className="steps">
         <Back url='/stepseven' src={backButtonIcon} />
         <h2>Tutaina</h2>

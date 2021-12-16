@@ -2,10 +2,12 @@ import * as React from 'react';
 import { sevenPage } from '../../assets';
 import { Link } from 'react-router-dom';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 
 const StepSeven = () => {
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={sevenPage} textImage='step seven' />
         <h2>Elige un villancico para cantar</h2>

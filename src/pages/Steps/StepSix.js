@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { sixPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 import Slide from '../../Components/Slide';
 
 const StepSix = () => {
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={sixPage} textImage='step six' />
         <h2>Oración al Niño Jesús</h2>

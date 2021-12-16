@@ -1,11 +1,13 @@
 import React from 'react';
 import { fourPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 import Slide from '../../Components/Slide';
 
 const StepFour = () => {
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={fourPage} textImage='step four' />
         <h2>

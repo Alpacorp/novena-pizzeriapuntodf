@@ -2,11 +2,13 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { dayone, daytwo, daythree, dayfour, dayfive, daysix, dayseven, dayeight, daynine, twoPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
+import Header from '../../Components/Header';
 import './Steps.css'
 
 const StepTwo = () => {
   return (
     <>
+      <Header show={true} />
       <div className='steps'>
         <DayImgDate image={twoPage} textImage='step two' />
         <h2>Elige la lectura para hoy</h2>

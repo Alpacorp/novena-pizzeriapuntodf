@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import './Pages.css';
 import { one, two, three, four, five, six, seven, MainTitle, pizzeria } from '../assets';
 import BrandLogo from '../Components/BrandLogo';
+import Header from '../Components/Header';
 
 const Home = () => {
   return (
     <>
+      <Header show={false} />
       <div className='brandZone'>
         <BrandLogo src={pizzeria} />
         <BrandLogo src={MainTitle} />
