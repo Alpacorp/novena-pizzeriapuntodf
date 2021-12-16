@@ -21,18 +21,17 @@
   to {transform: none;}
 }
 
-.brandZone .brandLogo{
+.brandZone .brandLogo {
   margin: 0 20px;
 }
 
 .brandLogo {
   text-align: center;
   margin: 30px 20px 0 20px;
-  /* height: 90px; */
 }
 
 .brandLogo img {
-  height: 100px;
+  height: 120px;
   width: 100%;
 }
 
@@ -102,6 +101,10 @@
 
 .introModal .brandLogo {
   margin: 0 0 20px 0;
+}
+
+.introModal .brandLogo img {
+  height: 150px;
 }
 
 @media screen and (min-width: 800px) {
