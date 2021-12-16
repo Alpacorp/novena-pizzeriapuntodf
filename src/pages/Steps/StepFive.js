@@ -36,10 +36,8 @@ const StepFive = () => {
               !dataInfo || dataInfo === 'undefined' || dataInfo === '' || dataInfo.length === 0 ? '' : dataInfo[0].message
             }
           </p>
-          <br />
           <small>!Ven a nuestras almas,</small>
           <small>ven no tardes tanto!</small>
-          <br />
           <div className='buttons'>
             {
               counter <= 0 ?

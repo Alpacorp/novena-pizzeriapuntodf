@@ -75,7 +75,6 @@
   z-index: 4;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
   animation: 1s;
 }
@@ -109,13 +108,19 @@
 }
 
 @media screen and (min-width: 800px) {
+  .introModal {
+    justify-content: center;
+  }
   .introModal .novenaImage img {
     height: 100px;
   }
+  
+.brandZone .brandLogo {
+  margin: 30px 20px;
+}
   .brandLogo img {
     height: 65px;
     width: 100%;
-    margin-bottom: 0;
   }
   .logosTry {
     margin: 20px 0;
